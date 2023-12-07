@@ -5,7 +5,7 @@ interface AuthGuardProps {
 }
 
 export function AuthGuard({ isPrivate }: AuthGuardProps) {
-  const signedIn = false;
+  const signedIn = true;
 
   if (!signedIn && isPrivate) {
     return <Navigate to='/' replace />;

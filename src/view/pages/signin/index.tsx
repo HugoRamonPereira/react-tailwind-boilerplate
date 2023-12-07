@@ -30,7 +30,7 @@ export function Signin() {
           {...register('password')}
         />
 
-        <p className='flex justify-center md:flex-none flex-col md:flex-row space-x-3 font-light tracking-wide'>
+        <p className='flex justify-center md:flex-none flex-col md:flex-row space-x-3 font-light tracking-wide text-center'>
           <span className='text-sm lg:text-base text-gray-700'>
             Don&apos;t have an account?
           </span>
