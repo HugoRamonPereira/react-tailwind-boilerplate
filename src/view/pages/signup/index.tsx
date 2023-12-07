@@ -10,7 +10,7 @@ export function Signup() {
   return (
     <div className='flex flex-col items-center justify-center'>
       <header className='flex flex-col items-center gap-5'>
-        <p className='text-3xl font-light tracking-wider'>
+        <p className='text-2xl lg:text-3xl font-light tracking-wider text-center'>
           Create your account
         </p>
       </header>
@@ -37,7 +37,7 @@ export function Signup() {
           {...register('password')}
         />
 
-        <p className='flex justify-center md:flex-none flex-col md:flex-row space-x-3 font-light tracking-wide'>
+        <p className='flex justify-center md:flex-none flex-col md:flex-row space-x-3 font-light tracking-wide text-center'>
           <span className='text-sm lg:text-base text-gray-700'>
             Already have an account?
           </span>
