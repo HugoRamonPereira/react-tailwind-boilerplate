@@ -8,7 +8,7 @@ export function Signup() {
   const { handleSubmit, register, errors, isPending } = useSignupController();
 
   return (
-    <div className='flex flex-col items-center justify-center w-5/6 h-5/6'>
+    <div className='flex flex-col items-center justify-center'>
       <header className='flex flex-col items-center gap-5'>
         <p className='text-3xl font-light tracking-wider'>
           Create your account
