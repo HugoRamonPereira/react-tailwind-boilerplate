@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Button } from '../../../components/buttons/button';
-import { AnimatedInput } from '../../../components/inputs/animated-input';
+import { Button } from '../../../components/buttons/button/button';
+import { AnimatedInput } from '../../../components/inputs/animated-input/animated-input';
 import { useSigninController } from './useSigninController';
-import { AnimatedPasswordInput } from '../../../components/inputs/animated-password-input';
+import { AnimatedPasswordInput } from '../../../components/inputs/animated-password-input/animated-password-input';
 
 export function Signin() {
   const { handleSubmit, register, errors, isPending } = useSigninController();
